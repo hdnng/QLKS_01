@@ -1,0 +1,43 @@
+﻿@model IEnumerable<QuanLyKhachSan.Models.User>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Người Dùng</title>
+</head>
+<body>
+    <h2>Danh Sách Người Dùng</h2>
+
+    @if (Model != null)
+    {
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>UserID</th>
+                    <th>Gmail</th>
+                    <th>RoleID</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.UserID</td>
+                        <td>@user.Gmail</td>
+                        <td>@user.RoleID</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (Model.Any())
+    {
+        <p>Không có dl</p>
+    }
+    else
+    {
+        <p>bị null</p>
+    }
+</body>
+</html>

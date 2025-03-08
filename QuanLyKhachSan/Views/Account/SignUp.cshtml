@@ -1,0 +1,222 @@
+﻿@{
+    ViewData["Title"] = "Đăng Ký";
+}
+
+<div class="signup-container">
+    <h2>ĐĂNG KÝ</h2>
+    <form method="post" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="Fullname">Họ và tên</label>
+            <input type="text" id="Fullname" name="Fullname" class="form-control" placeholder="Nhập họ và tên" required />
+            <span id="fullnameError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <div class="form-group">
+            <label for="Birthday">Họ và tên</label>
+            <input type="date" id="Birthday" name="Birthday" class="form-control" placeholder="Nhập ngày sinh" required />
+            <span id="birthdayError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <div class="form-group">
+            <label for="Gmail">Gmail</label>
+            <input type="text" id="Gmail" name="Gmail" class="form-control" placeholder="Nhập Gmail" required />
+            <span id="gmailError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <div class="form-group">
+            <label for="PhoneNumber">SĐT</label>
+            <input type="text" id="PhoneNumber" name="PhoneNumber" class="form-control" placeholder="Nhập Số điện thoại" required />
+            <span id="phoneError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <div class="form-group">
+            <label for="CCCD">CCCD</label>
+            <input type="text" id="CCCD" name="CCCD" class="form-control" placeholder="Nhập căn cước công dân" required />
+            <span id="cccdError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" class="form-control" placeholder="Nhập mật khẩu" required />
+            <span id="passError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Nhập lại mật khẩu</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" class="form-control" placeholder="Xác nhận lại mật khẩu" required />
+            <span id="cfpassError" style="color: red;"></span> <!-- Thông báo lỗi -->
+        </div>
+
+        <button type="submit" class="btnSigUp">ĐĂNG KÝ</button>
+    </form>
+
+    <div class="login-link">
+        <p>Đã có tài khoản? <a href="/Account/Login">ĐĂNG NHẬP</a></p>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .signup-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .btnSignUp {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btnSignUp:hover {
+            background-color: #0056b3;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .login-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        // Kiểm tra ô nhập trống và email, số điện thoại hợp lệ
+        function validateForm() {
+            let isValid = true;
+
+            // Kiểm tra FullName
+            const Fullname = document.getElementById('Fullname').value;
+            if (Fullname.trim() === "") {
+                document.getElementById('fullnameError').textContent = "Họ và tên không được để trống.";
+                isValid = false;
+            } else {
+                document.getElementById('fullnameError').textContent = "";
+            }
+
+            const Birthday = document.getElementById('Birthday').value;
+            if (Birthday.trim() === "") {
+                document.getElementById('birthdayError').textContent = "Ngày sinh không được để trống.";
+                isValid = false;
+            } else {
+                document.getElementById('birthdayError').textContent = "";
+            }
+
+            // Kiểm tra gmail
+            const gmailRejex = /^[a-zA-Z0-9._%+-]+@@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            const Gmail = document.getElementById('Gmail').value;
+            if (Gmail.trim() === "") {
+                document.getElementById('gmailError').textContent = "Gmail không được để trống.";
+                isValid = false;
+            } else {
+                if(!gmailRejex.test(Gmail))
+                {
+                    document.getElementById('gmailError').textContent = "Gmail không hợp lệ.";
+                    isValid = false;
+                }
+                else
+                {
+                    document.getElementById('gmailError').textContent = "";
+                }
+            }
+
+            // Kiểm tra sđt
+            const PhonePattern = /^0(32|33|34|35|36|37|38|39|56|58|59|70|76|77|78|79|81|82|83|84|85|86|87|88|89|90|92|93|96|97|98|99)\d{7}$/;
+            const PhoneNumber = document.getElementById('PhoneNumber').value;
+            if (phone.trim() === "") {
+                document.getElementById('phoneError').textContent = "Số điện thoại không được để trống.";
+                isValid = false;
+            } else {
+                if(!PhonePattern.test(PhoneNumber))
+                {
+                    document.getElementById('phoneError').textContent = "Số điện thoại không hợp lệ.";
+                    isValid = false;
+                }
+                else
+                {
+                    document.getElementById('phoneError').textContent = "";
+                }
+            }
+
+            // Kiểm tra cccd
+            const CCCD = document.getElementById('CCCD').value;
+            if (CCCD.trim() === "") {
+                document.getElementById('cccdError').textContent = "CCCD không được để trống.";
+                isValid = false;
+            } else {
+                document.getElementById('cccdError').textContent = "";
+            }
+
+            // Kiểm tra pass
+            const Password = document.getElementById('Password').value;
+            if (Password.trim() === "") {
+                document.getElementById('passError').textContent = "Mật khẩu không được để trống.";
+                isValid = false;
+            } else {
+                document.getElementById('passError').textContent = "";
+            }
+
+            // Kiểm tra cfpass
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            if (confirmPassword.trim() === "") {
+                document.getElementById('cfpassError').textContent = "Mật khẩu không được để trống.";
+                isValid = false;
+            }
+            else {
+                if(confirmPassword.trim() != Password.trim())
+                {
+                    document.getElementById('cfpassError').textContent = "Mật khẩu không khớp";
+                    isValid = false;
+                }
+                else{
+                    document.getElementById('cfpassError').textContent = "";
+                }
+            }
+
+            
+
+            return isValid; // Nếu có lỗi, form sẽ không được submit
+        }
+    </script>
+}
+
