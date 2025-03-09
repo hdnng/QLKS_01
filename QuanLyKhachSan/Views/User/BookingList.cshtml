@@ -1,0 +1,484 @@
+﻿@{
+    ViewData["Title"] = "Danh Sách Đặt Phòng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary: #FF6600;
+            --primary-dark: #E55A00;
+            --primary-light: #FF8533;
+            --primary-bg: #FFF8F4;
+            --white: #FFFFFF;
+            --gray-100: #F8F9FA;
+            --gray-200: #E9ECEF;
+            --gray-300: #DEE2E6;
+            --gray-400: #CED4DA;
+            --gray-500: #ADB5BD;
+            --gray-600: #6C757D;
+            --gray-700: #495057;
+            --gray-800: #343A40;
+            --gray-900: #212529;
+            --success: #28a745;
+            --info: #17a2b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--gray-100);
+            color: var(--gray-800);
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+            position: relative;
+            display: inline-block;
+        }
+
+            h1::after {
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 80px;
+                height: 3px;
+                background-color: var(--primary);
+                border-radius: 3px;
+            }
+
+        .booking-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .booking-card {
+            text-decoration: none;
+            background-color: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+        }
+
+            .booking-card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            }
+
+        .booking-content {
+            display: flex;
+            padding: 20px;
+        }
+
+        .booking-image {
+            width: 140px;
+            height: 140px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: var(--gray-200);
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-600);
+            font-size: 14px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .booking-details {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .booking-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .booking-info {
+            flex: 1;
+        }
+
+        .booking-info-item {
+            margin-bottom: 8px;
+        }
+
+        .label {
+            font-size: 13px;
+            color: var(--gray-600);
+            margin-bottom: 2px;
+        }
+
+        .value {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--gray-800);
+        }
+
+        .booking-status {
+            width: 140px;
+            text-align: right;
+        }
+
+        .status-label {
+            font-size: 13px;
+            color: var(--gray-600);
+            margin-bottom: 2px;
+        }
+
+        .status-value {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        /* css cho trạng thái đã cọc */
+        .status-deposit {
+            background-color: var(--primary-bg);
+            color: var(--primary);
+            border: 1px solid var(--primary-light);
+        }
+
+
+        /* css cho trạng thái đã thanh toán */
+        .status-paid {
+            background-color: #E8F6EE;
+            color: var(--success);
+            border: 1px solid #C3E6D1;
+        }
+
+        .booking-price {
+            background-color: var(--gray-100);
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+            .price-row:last-child {
+                margin-bottom: 0;
+                padding-top: 6px;
+                border-top: 1px dashed var(--gray-300);
+            }
+
+        .price-label {
+            font-size: 14px;
+            color: var(--gray-700);
+        }
+
+        .price-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .total {
+            color: var(--primary);
+        }
+
+        .btn-book {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+            .btn-book:hover {
+                background-color: var(--primary-dark);
+            }
+
+        .staff-info {
+            display: flex;
+            align-items: center;
+            margin-top: 12px;
+        }
+
+        .staff-icon {
+            color: var(--info);
+            margin-right: 8px;
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 25px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        .close-modal {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--gray-500);
+            cursor: pointer;
+        }
+
+            .close-modal:hover {
+                color: var(--gray-700);
+            }
+
+        .modal h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .modal p {
+            margin-bottom: 15px;
+            color: var(--gray-700);
+        }
+
+        .modal-notice {
+            font-size: 14px;
+            background-color: #FFF3E0;
+            padding: 12px;
+            border-left: 3px solid var(--primary);
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .modal-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        .btn-confirm {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+            .btn-confirm:hover {
+                background-color: var(--primary-dark);
+            }
+
+        .btn-cancel {
+            background-color: var(--gray-200);
+            color: var(--gray-700);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+            .btn-cancel:hover {
+                background-color: var(--gray-300);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>DANH SÁCH ĐẶT PHÒNG</h1>
+        </div>
+        <div class="booking-list">
+            <!-- Booking Card 1 - Đã cọc -->
+            <a href="BookingDetail?id=1" class="booking-card">
+                <div class="booking-content">
+                    <div class="booking-image">
+                        <img src="https://images.pexels.com/photos/6235436/pexels-photo-6235436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <div class="booking-details">
+                        <div class="booking-row">
+                            <div class="booking-info">
+                                <div class="booking-info-item">
+                                    <p class="label">Mã đặt phòng</p>
+                                    <p class="value">ROOM-A1205</p>
+                                </div>
+                                <div class="booking-info-item">
+                                    <p class="label">Thời gian đặt</p>
+                                    <p class="value">15/03/2025 - 18/03/2025</p>
+                                </div>
+                            </div>
+                            <div class="booking-status">
+                                <p class="status-label">Trạng thái:</p>
+                                <p class="status-value status-deposit">Đã cọc</p>
+                                <!-- css status-deposit cho trạng thái đã thanh toán -->
+                            </div>
+                        </div>
+
+                        <div class="booking-price">
+                            <div class="price-row">
+                                <span class="price-label">Tổng tiền phòng:</span>
+                                <span class="price-value total">3.600.000 VND</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="price-label">Tiền cọc:</span>
+                                <span class="price-value">1.200.000 VND</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" onclick="showCancelModal()">HỦY ĐẶT PHÒNG</button>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Booking Card 2 - Đã thanh toán -->
+            <a href="BookingDetail?id=2" class="booking-card">
+                <div class="booking-content">
+                    <div class="booking-image">
+                        <img src="https://images.pexels.com/photos/6235436/pexels-photo-6235436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <div class="booking-details">
+                        <div class="booking-row">
+                            <div class="booking-info">
+                                <div class="booking-info-item">
+                                    <p class="label">Mã đặt phòng</p>
+                                    <p class="value">ROOM-B2038</p>
+                                </div>
+                                <div class="booking-info-item">
+                                    <p class="label">Thời gian đặt</p>
+                                    <p class="value">20/03/2025 - 25/03/2025</p>
+                                </div>
+                                <div class="staff-info">
+                                    <p class="value">Nhân viên: Nguyễn Văn A</p>
+                                </div>
+                            </div>
+                            <div class="booking-status">
+                                <p class="status-label">Trạng thái:</p>
+                                <p class="status-value status-paid">Đã thanh toán</p>
+                                <!-- css status-paid cho trạng thái đã thanh toán -->
+                            </div>
+                        </div>
+
+                        <div class="booking-price">
+                            <div class="price-row">
+                                <span class="price-label">Tổng tiền phòng:</span>
+                                <span class="price-value total">5.500.000 VND</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="price-label">Tiền cọc:</span>
+                                <span class="price-value">2.000.000 VND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal Hủy Đặt Phòng -->
+    <div id="cancelModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Xác nhận hủy đặt phòng</h2>
+            <p>Bạn có chắc chắn muốn hủy đặt phòng này không?</p>
+            <p class="modal-notice">Lưu ý: Tiền cọc sẽ không được hoàn trả nếu bạn hủy đặt phòng trong vòng 48 giờ trước thời gian nhận phòng.</p>
+            <div class="modal-buttons">
+                <button id="cancelBookingConfirm" class="btn-confirm">Xác nhận hủy</button>
+                <button id="cancelBookingCancel" class="btn-cancel">Đóng</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById('cancelModal');
+
+        // Hàm hiển thị modal
+        function showCancelModal() {
+            event.preventDefault();
+            event.stopPropagation();
+            modal.style.display = 'flex';
+        }
+        const closeBtn = document.querySelector('.close-modal');
+        const cancelBtn = document.getElementById('cancelBookingCancel');
+
+        // Xử lý đóng modal khi nhấp vào nút đóng
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Xử lý đóng modal khi nhấp vào nút "Đóng"
+        cancelBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Xử lý đóng modal khi nhấp vào bên ngoài modal
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+    </script>
+</body>
+</html>
