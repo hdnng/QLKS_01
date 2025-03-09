@@ -60,13 +60,6 @@ namespace QuanLyKhachSan.Repositories
             await _context.SaveChangesAsync();
         }
 
-
-        // Tìm kiếm tất cả
-        //public async Task<IEnumerable<T>> GetAllAsync()
-        //{
-        //    return await _dbSet.ToListAsync();
-        //}
-
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             try
@@ -181,5 +174,11 @@ namespace QuanLyKhachSan.Repositories
         {
             return await _dbSet.CountAsync();
         }
+
+        public async Task<T> GetByIdAsync(object id)
+        {
+            return await _dbSet.FindAsync(id);
+        }
+
     }
 }

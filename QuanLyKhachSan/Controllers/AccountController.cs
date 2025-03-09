@@ -14,20 +14,15 @@ namespace QuanLyKhachSan.Controllers
         private readonly UserManagementService _userS;
         private readonly GenericFunction<User> _userR;
         private readonly CustomerManagementService _customerS;
-        private readonly GenericFunction<Customer> _customerR;
-        private readonly GenericFunction<Employee> _employeeR;
+
 
         public AccountController(UserManagementService userS,
                                  GenericFunction<User> userR,
-                                 CustomerManagementService customerS,
-                                 GenericFunction<Customer> customerR,
-                                 GenericFunction<Employee> employeeR)
+                                 CustomerManagementService customerS)
         {
             _userS = userS;
             _userR = userR;
             _customerS = customerS;
-            _customerR = customerR;
-            _employeeR = employeeR;
         }
 
         // Trang đăng ký (GET)

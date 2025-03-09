@@ -15,6 +15,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<GenericFunction<User>>(); // GenericFunction cho User
 builder.Services.AddScoped<GenericFunction<Customer>>(); // GenericFunction cho Customer
 builder.Services.AddScoped<GenericFunction<Employee>>(); // GenericFunction cho Employee
+builder.Services.AddScoped<GenericFunction<Booking>>(); 
+builder.Services.AddScoped<GenericFunction<BookingDetail>>(); 
+
 
 builder.Services.AddSession(options =>
 {
@@ -26,6 +29,8 @@ builder.Services.AddSession(options =>
 // Đăng ký UserManagementService và CustomerManagementService vào DI container
 builder.Services.AddScoped<UserManagementService>(); // Xử lý nghiệp vụ đăng ký User
 builder.Services.AddScoped<CustomerManagementService>(); // Xử lý nghiệp vụ đăng ký Customer
+builder.Services.AddScoped<BookingManagementService>();
+builder.Services.AddScoped<BookingDetailManagementService>();
 
 // Đăng ký RoomService
 builder.Services.AddScoped<RoomService>(); // Xử lý nghiệp vụ cho Room
