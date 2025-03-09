@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bIBGPR7IILk=",
+  "dgSpecHash": "jIBeCj0YS9KoHFpxwqvbLt8rdUBhIiC3evxA3Rf8rZSUgxvK8s+I1/R1q+bTWNK7nK8i2nHb7/SRt1fgPExO+Q==",
   "success": true,
-  "projectFilePath": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
+  "projectFilePath": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
