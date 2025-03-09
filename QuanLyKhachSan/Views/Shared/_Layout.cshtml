@@ -29,12 +29,11 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="BookingList">DS đặt phòng</a>
-                        </li>
-
                         @if (Context.Session.GetString("UserGmail") != null)
                         {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="BookingList">DS đặt phòng</a>
+                            </li>
                             <li class="nav-item">
                                 <span class="nav-link text-dark">@Context.Session.GetString("UserGmail")</span>
                             </li>
@@ -49,6 +48,7 @@
                             </li>
                         }
                     </ul>
+
 
                 </div>
             </div>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,18 +122,17 @@
               "RelativeToolTip": "QuanLyKhachSan\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T07:51:20.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:51:20.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Program.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\Program.cs",
               "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Program.cs",
               "RelativeToolTip": "QuanLyKhachSan\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADIAAAAtAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T07:49:23.098Z",
               "EditorCaption": ""
@@ -148,8 +147,7 @@
               "RelativeToolTip": "QuanLyKhachSan\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T07:48:09.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:48:09.864Z"
             },
             {
               "$type": "Document",
@@ -173,8 +171,7 @@
               "RelativeToolTip": "QuanLyKhachSan\\wwwroot\\css\\index.css",
               "ViewState": "AQIAAD4AAAAAAAAAAAAAwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-09T06:16:20.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T06:16:20.533Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "QuanLyKhachSan\\Controllers\\AdminController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:01:48.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T06:01:48.789Z"
             },
             {
               "$type": "Document",
@@ -227,13 +223,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAYwDMAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-09T05:53:08.835Z",
               "EditorCaption": ""
@@ -272,8 +268,7 @@
               "RelativeToolTip": "QuanLyKhachSan\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAIcAAAAAAAAAAAAAwJwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T05:28:29.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T05:28:29.597Z"
             },
             {
               "$type": "Document",
@@ -285,8 +280,7 @@
               "RelativeToolTip": "QuanLyKhachSan\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T07:23:25.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:23:25.686Z"
             },
             {
               "$type": "Document",
@@ -310,8 +304,7 @@
               "RelativeToolTip": "QuanLyKhachSan\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T07:23:23.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:23:23.507Z"
             },
             {
               "$type": "Document",
