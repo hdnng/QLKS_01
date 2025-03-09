@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 namespace QuanLyKhachSan.Controllers
 {
-    public class BookingController : Controller
+    public class User : Controller
     {
         private readonly BookingManagementService _bookingS;
         private readonly GenericFunction<Booking> _bookingR;
@@ -16,7 +16,7 @@ namespace QuanLyKhachSan.Controllers
 
 
 
-        public BookingController(BookingManagementService bookingS,
+        public User(BookingManagementService bookingS,
                                  GenericFunction<Booking> bookingR,
                                  BookingDetailManagementService bookingdS,
                                  GenericFunction<BookingDetail> bookingdR)

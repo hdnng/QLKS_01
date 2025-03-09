@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuanLyKhachSan
 build_property.RootNamespace = QuanLyKhachSan
@@ -30,18 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Booking/BookingDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Booking/BookingList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Booking/COC.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDT0MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +56,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/User/BookingDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCb29raW5nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/User/BookingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCb29raW5nTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/User/COC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDT0MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/_ViewImports.cshtml]

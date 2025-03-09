@@ -12,12 +12,12 @@ namespace QuanLyKhachSan.Controllers
     public class AccountController : Controller
     {
         private readonly UserManagementService _userS;
-        private readonly GenericFunction<User> _userR;
+        private readonly GenericFunction<Models.User> _userR;
         private readonly CustomerManagementService _customerS;
 
 
         public AccountController(UserManagementService userS,
-                                 GenericFunction<User> userR,
+                                 GenericFunction<Models.User> userR,
                                  CustomerManagementService customerS)
         {
             _userS = userS;
@@ -40,7 +40,7 @@ namespace QuanLyKhachSan.Controllers
 
         // Xử lý đăng ký (POST)
         [HttpPost]
-        public async Task<IActionResult> SignUp(User modelU, Customer modelC)
+        public async Task<IActionResult> SignUp(Models.User modelU, Customer modelC)
         {
 
                 Debug.WriteLine("User Model:");
@@ -105,7 +105,7 @@ namespace QuanLyKhachSan.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Login(User modelU)
+        public async Task<IActionResult> Login(Models.User modelU)
         {
             try
             {
