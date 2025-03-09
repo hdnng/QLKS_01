@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj": {}
+    "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj": {}
   },
   "projects": {
-    "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj": {
+    "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
+        "projectUniqueName": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
         "projectName": "QuanLyKhachSan",
-        "projectPath": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\obj\\",
+        "projectPath": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\QuanLyKhachSan.csproj",
+        "packagesPath": "C:\\Users\\chinh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
