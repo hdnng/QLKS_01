@@ -1,58 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\",
+  "WorkspaceRootPath": "D:\\NMCNPM\\Git\\QLKS_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\services\\bookingdetailmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\bookingdetailmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\wwwroot\\css\\roomdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\wwwroot\\css\\roomdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\room\\roomdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\room\\roomdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\user\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\user\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\user\\bookingdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\user\\bookingdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\admin\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\admin\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\views\\booking\\bookingdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\booking\\bookingdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\services\\roommanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\roommanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\views\\room\\roomdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\room\\roomdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\services\\bookingmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\bookingmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\git\\qlks_01\\quanlykhachsan\\services\\customermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\customermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -94,173 +78,104 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "roomdetail.css",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\roomdetail.css",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\wwwroot\\css\\roomdetail.css",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\roomdetail.css",
-              "RelativeToolTip": "QuanLyKhachSan\\wwwroot\\css\\roomdetail.css",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-09T06:19:52.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.css",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\index.css",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\wwwroot\\css\\index.css",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\index.css",
-              "RelativeToolTip": "QuanLyKhachSan\\wwwroot\\css\\index.css",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAwEgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-09T06:16:20.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T06:12:44.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:01:48.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerList.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Admin\\CustomerList.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Admin\\CustomerList.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Admin\\CustomerList.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\Admin\\CustomerList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T05:59:09.709Z"
+              "WhenOpened": "2025-03-09T09:10:18.601Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RoomDetail.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T05:55:32.274Z",
+              "Title": "GenericFunction.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAcwLEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:47:08.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingDetailManagementService.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\BookingDetailManagementService.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\BookingDetailManagementService.cs",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\BookingDetailManagementService.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Services\\BookingDetailManagementService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:29:19.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABKAAAA",
+              "Title": "BookingDetail.cshtml",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Views\\Booking\\BookingDetail.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Booking\\BookingDetail.cshtml",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Views\\Booking\\BookingDetail.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\Booking\\BookingDetail.cshtml",
+              "ViewState": "AgIAACgBAAAAAAAAAAAswE0BAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T05:55:03.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAqwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T05:53:08.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\UserController.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T05:51:34.358Z"
+              "WhenOpened": "2025-03-09T09:51:10.449Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookingList.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\User\\BookingList.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\User\\BookingList.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\User\\BookingList.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\User\\BookingList.cshtml",
-              "ViewState": "AQIAALwBAAAAAAAAAAAYwOMBAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T05:49:46.594Z",
-              "EditorCaption": ""
+              "Title": "RoomManagementService.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\RoomManagementService.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\RoomManagementService.cs",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\RoomManagementService.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Services\\RoomManagementService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:54:51.99Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BookingDetail.cshtml",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\User\\BookingDetail.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\User\\BookingDetail.cshtml",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\User\\BookingDetail.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\User\\BookingDetail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Title": "RoomDetail.cshtml",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\Room\\RoomDetail.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T05:48:10.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T09:40:42.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GenericFunction.cs",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwD4AAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "BookingManagementService.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\BookingManagementService.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\BookingManagementService.cs",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\BookingManagementService.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Services\\BookingManagementService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T05:38:13.513Z"
+              "WhenOpened": "2025-03-09T07:12:40.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAewIUAAAAwAAAA",
+              "DocumentIndex": 7,
+              "Title": "CustomerManagementService.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "ToolTip": "D:\\NMCNPM\\Git\\QLKS_01\\QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T05:28:29.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:13:00.673Z"
             }
           ]
         },
