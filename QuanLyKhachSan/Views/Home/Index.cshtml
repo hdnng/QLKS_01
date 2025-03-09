@@ -1,8 +1,31 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1 class="text-center">TRANG CHỦ</h1>
+<div class="search-box text-center mb-4">
+    <input type="text" class="form-control d-inline-block w-50" placeholder="Tìm kiếm..." />
+    <button class="btn btn-primary">Tìm kiếm</button>
 </div>
+
+<section class="hot-rooms">
+    <h2 class="text-center">PHÒNG HOT</h2>
+    <div class="row">
+        @for (int i = 0; i < 3; i++)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <a asp-controller="Room" asp-action="RoomDetail" asp-route-roomId="@i">
+                            <div class="room-image bg-light" style="height: 150px;"></div>
+                            <p><strong>Số phòng:</strong> @(100 + i)</p>
+                            <p><strong>Kiểu phòng:</strong> Deluxe</p>
+                            <p><strong>Sức chứa:</strong> 2 người</p>
+                            <p><strong>Giá:</strong> 1,500,000 VND</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>

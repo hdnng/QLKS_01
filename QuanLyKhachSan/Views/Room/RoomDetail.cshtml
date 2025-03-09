@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var roomId = ViewData["RoomId"];
+}
+
+<main role="main" class="pb-3">
+    <div class="search-box text-center mb-4">
+        <input type="text" class="form-control d-inline-block w-50" placeholder="Tìm kiếm..." />
+        <button class="btn btn-primary">Tìm kiếm</button>
+    </div>
+
+    <section class="room-details mb-5">
+        <h2 class="text-center">CHI TIẾT PHÒNG</h2>
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <div class="room-image bg-light" style="height: 200px;"></div>
+            </div>
+            <div class="col-md-8">
+                <p><strong>Số phòng:</strong>  @roomId</p>
+                <p><strong>Kiểu phòng:</strong> Deluxe</p>
+                <p><strong>Sức chứa:</strong> 2 người</p>
+                <p><strong>Giá:</strong> 1,500,000 VND</p>
+                <button class="btn btn-success">ĐẶT PHÒNG</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="room-info mb-5">
+        <h2 class="text-center">THÔNG TIN PHÒNG</h2>
+        <div class="room-description bg-light p-4 text-center" style="height: 200px;">Mô tả phòng</div>
+    </section>
+
+    <section class="recommended-rooms">
+        <h2 class="text-center">Phòng danh cho bạn</h2>
+        <div class="row">
+            @for (int i = 0; i < 3; i++)
+            {
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <div class="room-image bg-light" style="height: 150px;"></div>
+                            <p>Số phòng</p>
+                            <p>Kiểu phòng</p>
+                            <p>Sức chứa</p>
+                            <p>Giá</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</main>
