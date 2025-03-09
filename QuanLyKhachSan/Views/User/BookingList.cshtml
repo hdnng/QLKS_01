@@ -1,9 +1,13 @@
+@{
+    ViewData["Title"] = "Danh Sách Đặt Phòng";
+}
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh Sách Đặt Phòng</title>
+    <title>@ViewData["Title"]</title>
     <style>
         :root {
             --primary: #FF6600;
@@ -76,6 +80,7 @@
         }
 
         .booking-card {
+            text-decoration: none;
             background-color: var(--white);
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -162,12 +167,15 @@
             margin-top: 5px;
         }
 
+        /* css cho trạng thái đã cọc */
         .status-deposit {
             background-color: var(--primary-bg);
             color: var(--primary);
             border: 1px solid var(--primary-light);
         }
 
+
+/* css cho trạng thái đã thanh toán */
         .status-paid {
             background-color: #E8F6EE;
             color: var(--success);
@@ -240,38 +248,99 @@
            width: 100%;
            height: 100%;
         }
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            
-            .booking-content {
-                flex-direction: column;
-            }
-            
-            .booking-image {
-                width: 100%;
-                height: 180px;
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-            
-            .booking-row {
-                flex-direction: column;
-            }
-            
-            .booking-status {
-                width: 100%;
-                text-align: left;
-                margin-top: 15px;
-            }
-            
-            .btn-book {
-                width: 100%;
-                text-align: center;
-                margin-top: 20px;
-            }
-        }
+
+        /* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 25px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--gray-500);
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: var(--gray-700);
+}
+
+.modal h2 {
+    color: var(--primary);
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.modal p {
+    margin-bottom: 15px;
+    color: var(--gray-700);
+}
+
+.modal-notice {
+    font-size: 14px;
+    background-color: #FFF3E0;
+    padding: 12px;
+    border-left: 3px solid var(--primary);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.btn-confirm {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-confirm:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-cancel {
+    background-color: var(--gray-200);
+    color: var(--gray-700);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background-color: var(--gray-300);
+}
+        
     </style>
 </head>
 <body>
@@ -281,7 +350,7 @@
         </div>
         <div class="booking-list">
             <!-- Booking Card 1 - Đã cọc -->
-            <div class="booking-card">
+            <a href="BookingDetail?id=1" class="booking-card">
                 <div class="booking-content">
                     <div class="booking-image">
                         <img src="https://images.pexels.com/photos/6235436/pexels-photo-6235436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
@@ -301,6 +370,7 @@
                             <div class="booking-status">
                                 <p class="status-label">Trạng thái:</p>
                                 <p class="status-value status-deposit">Đã cọc</p>
+                                <!-- css status-deposit cho trạng thái đã thanh toán -->
                             </div>
                         </div>
                         
@@ -314,13 +384,13 @@
                                 <span class="price-value">1.200.000 VND</span>
                             </div>
                         </div>
-                        <button class="btn-book">HỦY ĐẶT PHÒNG</button>
+                        <button class="btn-book" onclick="showCancelModal()">HỦY ĐẶT PHÒNG</button>
                     </div>
                 </div>
-            </div>
+            </a>
             
             <!-- Booking Card 2 - Đã thanh toán -->
-            <div class="booking-card">
+            <a href="BookingDetail?id=2" class="booking-card">
                 <div class="booking-content">
                     <div class="booking-image">
                         <img src="https://images.pexels.com/photos/6235436/pexels-photo-6235436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
@@ -343,6 +413,7 @@
                             <div class="booking-status">
                                 <p class="status-label">Trạng thái:</p>
                                 <p class="status-value status-paid">Đã thanh toán</p>
+                                <!-- css status-paid cho trạng thái đã thanh toán -->
                             </div>
                         </div>
                         
@@ -358,8 +429,53 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
+                        
+<!-- Modal Hủy Đặt Phòng -->
+<div id="cancelModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Xác nhận hủy đặt phòng</h2>
+        <p>Bạn có chắc chắn muốn hủy đặt phòng này không?</p>
+        <p class="modal-notice">Lưu ý: Tiền cọc sẽ không được hoàn trả nếu bạn hủy đặt phòng trong vòng 48 giờ trước thời gian nhận phòng.</p>
+        <div class="modal-buttons">
+            <button id="cancelBookingConfirm" class="btn-confirm">Xác nhận hủy</button>
+            <button id="cancelBookingCancel" class="btn-cancel">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById('cancelModal');
+    
+    // Hàm hiển thị modal
+    function showCancelModal() {
+        event.preventDefault();
+        event.stopPropagation();
+        modal.style.display = 'flex';
+    }
+    const closeBtn = document.querySelector('.close-modal');
+    const cancelBtn = document.getElementById('cancelBookingCancel');
+    
+    // Xử lý đóng modal khi nhấp vào nút đóng
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+    
+    // Xử lý đóng modal khi nhấp vào nút "Đóng"
+    cancelBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+    
+    // Xử lý đóng modal khi nhấp vào bên ngoài modal
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+    
+</script>
 </body>
 </html>

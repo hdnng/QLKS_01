@@ -1,0 +1,462 @@
+@{
+    ViewData["Title"] = "Chi Tiết Đặt Phòng";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #FF6600;
+            --light-orange: #FFE6D9;
+            --dark-color: #333333;
+            --light-color: #FFFFFF;
+            --border-color: #DDDDDD;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: var(--light-color);
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 24px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .room-card {
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 15px;
+            position: relative;
+        }
+
+        .room-image {
+            width: 100%;
+            height: 150px;
+            background-color: #eee;
+            border: 1px dashed var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 12px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .room-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .room-info {
+            grid-column: 1 / 2;
+        }
+
+        .check-times {
+            grid-column: 3/ 3;
+        }
+
+        .info-item {
+            margin-bottom: 8px;
+            display: flex;
+        }
+
+        .info-price {
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+        }
+
+        .value-price {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .label {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 3px;
+            font-size: 14px;
+        }
+
+        .value {
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+        .guest-info {
+            margin-top: 30px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .payment-info {
+            background-color: var(--light-orange);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .price-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn-submit {
+            text-decoration: none;
+            text-align: center;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn-submit:hover {
+            background-color: #E55A00;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 30px;
+        }
+
+        /* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: #333;
+}
+
+.modal h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.modal p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.modal-notice {
+    font-size: 14px;
+    background-color: #FFF3E0;
+    padding: 12px;
+    border-left: 3px solid var(--primary-color);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.btn-confirm {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-confirm:hover {
+    background-color: #E55A00;
+}
+
+.btn-cancel {
+    background-color: #eee;
+    color: #555;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background-color: #ddd;
+}
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">CHI TIẾT ĐẶT PHÒNG</div>
+        <div class="form-grid">
+                    <!-- Room Card -->
+                    <div class="room-card">
+                        <div class="room-image">
+                            <img src="https://images.pexels.com/photos/6235436/pexels-photo-6235436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="room-details">
+                            <div class="room-info">
+                                <div class="info-item">
+                                    <p class="label">Số phòng: </p>
+                                    <p class="value">A101</p>
+                                </div>
+                                <div class="info-item">
+                                    <p class="label">Kiểu phòng: </p>
+                                    <p class="value">Phòng đơn</p>
+                                </div>
+                                <div class="info-item">
+                                    <p class="label">Sức chứa: </p>
+                                    <p class="value">5 người</p>
+                                </div>
+                            </div>
+                            <div class="check-times">
+                                <div class="info-item">
+                                    <p class="label">Thời gian check-in</p>
+                                    <p class="value">11:35 09/03/2025</p>
+                                </div>
+                                <div class="info-item">
+                                    <p class="label">Thời gian check-out</p>
+                                    <p class="value">11:35 09/03/2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-price">
+                            <p class="value-price">799.000đ/ngày</p>
+                        </div>
+                    </div>
+
+                    <div class="room-card">
+                        <div class="room-image">
+                            <img src="https://images.pexels.com/photos/6235436/pexels-photo-6235436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="room-details">
+                            <div class="room-info">
+                                <div class="info-item">
+                                    <p class="label">Số phòng: </p>
+                                    <p class="value">A101</p>
+                                </div>
+                                <div class="info-item">
+                                    <p class="label">Kiểu phòng: </p>
+                                    <p class="value">Phòng đơn</p>
+                                </div>
+                                <div class="info-item">
+                                    <p class="label">Sức chứa: </p>
+                                    <p class="value">5 người</p>
+                                </div>
+                            </div>
+                            <div class="check-times">
+                                <div class="info-item">
+                                    <p class="label">Thời gian check-in</p>
+                                    <p class="value">11:35 09/03/2025</p>
+                                </div>
+                                <div class="info-item">
+                                    <p class="label">Thời gian check-out</p>
+                                    <p class="value">11:35 09/03/2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-price">
+                            <p class="value-price">799.000đ/ngày</p>
+                        </div>
+                    </div>
+
+            <!-- Guest Information -->
+            <div class="guest-info">
+                <h3 style="color: var(--primary-color); margin-bottom: 15px;">THÔNG TIN KHÁCH HÀNG</h3>
+                <div class="info-item">
+                    <p class="label">Tên:</p>
+                    <p class="value">Trần Minh Hiếu</p>
+                </div>
+                <div class="info-item">
+                    <p class="label">Số điện thoại:</p>
+                    <p class="value">0348921209</p>
+                </div>
+                <div class="info-item">
+                    <p class="label">CCCD:</p>
+                    <p class="value">040204001198</p>
+                </div>
+            </div>
+            
+            <!-- Payment Information -->
+            <div class="payment-info">
+                <div class="price-row">
+                    <p class="label">Tổng tiền phòng</p>
+                    <p class="value">2.000.000 VND</p>
+                </div>
+                <div class="price-row">
+                    <p class="label">Tiền cọc</p>
+                    <p class="value">1.000.000 VND</p>
+                </div>
+                <div class="price-row">
+                    <p class="label">Trạng thái</p>
+                    <p class="value">Đã cọc</p>
+                </div>
+                <div class="price-row">
+                    <p class="label">Ngày đặt phòng</p>
+                    <p class="value">11:37 09/03/2025</p>
+                </div>
+            </div>
+            <!-- dựa trên trạng thái thanh toán để hiển thị nút hủy đặt, đặt phòng,... -->
+       <button onclick="handleCancelBooking()" class="btn-submit">HỦY ĐẶT PHÒNG</button>
+        </div>
+    </div>
+    <!-- Modal Hủy Đặt Phòng -->
+<div id="cancelModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Xác nhận hủy đặt phòng</h2>
+        <p>Bạn có chắc chắn muốn hủy đặt phòng này không?</p>
+        <p class="modal-notice">Lưu ý: Tiền cọc sẽ không được hoàn trả nếu bạn hủy đặt phòng trong vòng 48 giờ trước thời gian nhận phòng.</p>
+        <div class="modal-buttons">
+            <button id="cancelBookingConfirm" class="btn-confirm">Xác nhận hủy</button>
+            <button id="cancelBookingCancel" class="btn-cancel">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById('cancelModal');
+    
+    // Hàm xử lý khi nhấn nút hủy đặt phòng
+    function handleCancelBooking() {
+            showCancelModal();
+        return false;
+    }
+    
+    // Hàm hiển thị modal
+    function showCancelModal() {
+        modal.style.display = 'flex';
+    }
+    
+    // Lấy các nút điều khiển modal
+    const closeBtn = document.querySelector('.close-modal');
+    const cancelBtn = document.getElementById('cancelBookingCancel');
+    const confirmBtn = document.getElementById('cancelBookingConfirm');
+    
+    // Xử lý đóng modal khi nhấp vào nút đóng
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+    
+    // Xử lý đóng modal khi nhấp vào nút "Đóng"
+    cancelBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    }); 
+    
+    // Xử lý khi nhấp vào nút xác nhận hủy đặt phòng
+    confirmBtn.addEventListener('click', () => {
+        
+        // Thực hiện hủy đặt phòng ở đây
+
+        // Đóng modal
+        modal.style.display = 'none';
+    });
+    
+    // Xử lý đóng modal khi nhấp vào bên ngoài modal
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+</script>
+</body>
+</html>
