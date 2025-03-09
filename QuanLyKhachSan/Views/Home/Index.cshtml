@@ -1,8 +1,9 @@
-﻿@{
+﻿@model IEnumerable<QuanLyKhachSan.Models.Room>
+
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
-
 
 <h1 class="text-center">TRANG CHỦ</h1>
 <div class="search-box text-center mb-4">
@@ -13,17 +14,19 @@
 <section class="hot-rooms">
     <h2 class="text-center">PHÒNG HOT</h2>
     <div class="row">
-        @for (int i = 0; i < 3; i++)
+        @foreach (var room in Model)
         {
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
-                        <a asp-controller="Room" asp-action="RoomDetail" asp-route-roomId="@i">
-                            <div class="room-image bg-light" style="height: 150px;"></div>
-                            <p><strong>Số phòng:</strong> @(100 + i)</p>
-                            <p><strong>Kiểu phòng:</strong> Deluxe</p>
-                            <p><strong>Sức chứa:</strong> 2 người</p>
-                            <p><strong>Giá:</strong> 1,500,000 VND</p>
+                        <a asp-controller="Room" asp-action="RoomDetail" asp-route-roomId="@room.RoomID">
+                            <div class="room-image bg-light" style="height: 150px;">
+                                <img src="~/img/@room.IMGUrl") alt="Room Image" style="height: 100%; width: 100%; object-fit: cover;" />
+                            </div>
+                            <p><strong>Số phòng:</strong> @room.RoomID</p>
+                            <p><strong>Kiểu phòng:</strong> @room.RoomType?.RoomTypeName</p>
+                            <p><strong>Sức chứa:</strong> @room.Capacity người</p>
+                            <p><strong>Giá:</strong> @room.PricePerDay VND</p>
                         </a>
                     </div>
                 </div>

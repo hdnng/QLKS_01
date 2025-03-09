@@ -27,6 +27,9 @@ builder.Services.AddSession(options =>
 builder.Services.AddScoped<UserManagementService>(); // Xử lý nghiệp vụ đăng ký User
 builder.Services.AddScoped<CustomerManagementService>(); // Xử lý nghiệp vụ đăng ký Customer
 
+// Đăng ký RoomService
+builder.Services.AddScoped<RoomService>(); // Xử lý nghiệp vụ cho Room
+
 // Thêm các dịch vụ MVC vào container
 builder.Services.AddControllersWithViews();
 

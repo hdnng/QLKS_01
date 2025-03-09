@@ -1,6 +1,7 @@
-﻿@{
+﻿@model QuanLyKhachSan.Models.Room
+
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var roomId = ViewData["RoomId"];
 }
 
 <link rel="stylesheet" href="~/css/roomdetail.css" asp-append-version="true" />
@@ -15,13 +16,15 @@
         <h2 class="text-center">CHI TIẾT PHÒNG</h2>
         <div class="row align-items-center">
             <div class="col-md-4 text-center">
-                <div class="room-image bg-light" style="height: 200px;"></div>
+                <div class="room-image bg-light" style="height: 200px;">
+                    <img src="~/img/@Model.IMGUrl") alt="Room Image" style="height: 100%; width: 100%; object-fit: cover;" />
+                </div>
             </div>
             <div class="col-md-8">
-                <p><strong>Số phòng:</strong>  @roomId</p>
-                <p><strong>Kiểu phòng:</strong> Deluxe</p>
-                <p><strong>Sức chứa:</strong> 2 người</p>
-                <p><strong>Giá:</strong> 1,500,000 VND</p>
+                <p><strong>Số phòng:</strong> @Model.RoomID</p>
+                <p><strong>Kiểu phòng:</strong> @Model.RoomType?.RoomTypeName</p>
+                <p><strong>Sức chứa:</strong> @Model.Capacity người</p>
+                <p><strong>Giá:</strong> @Model.PricePerDay VND</p>
                 <button class="btn btn-success">ĐẶT PHÒNG</button>
             </div>
         </div>
@@ -29,7 +32,7 @@
 
     <section class="room-info mb-5">
         <h2 class="text-center">THÔNG TIN PHÒNG</h2>
-        <div class="room-description bg-light p-4 text-center" style="height: 200px;">Mô tả phòng</div>
+        <div class="room-description bg-light p-4 text-center" style="height: 200px;">@Model.Description</div>
     </section>
 
     <section class="recommended-rooms">
