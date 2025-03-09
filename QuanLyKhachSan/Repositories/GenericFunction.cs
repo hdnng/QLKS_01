@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
 namespace QuanLyKhachSan.Repositories
@@ -15,7 +16,7 @@ namespace QuanLyKhachSan.Repositories
     {
         //_context: Đây là đối tượng DbContext, chịu trách nhiệm kết nối và quản lý các đối tượng trong cơ sở dữ liệu
         private readonly ApplicationDbContext _context;
-        
+
         //_dbSet: Là một thuộc tính kiểu DbSet<T>, dùng để thao tác với các bảng trong cơ sở dữ liệu
         //DbSet<T> đại diện cho một tập hợp các đối tượng của kiểu T trong cơ sở dữ liệu, ví dụ: DbSet<User>, DbSet<Room>, v.v.
         private readonly DbSet<T> _dbSet;
@@ -59,7 +60,7 @@ namespace QuanLyKhachSan.Repositories
             await _context.SaveChangesAsync();
         }
 
-        
+
         // Tìm kiếm tất cả
         //public async Task<IEnumerable<T>> GetAllAsync()
         //{
@@ -91,7 +92,7 @@ namespace QuanLyKhachSan.Repositories
 
 
 
-        
+
         // Kiểm tra tồn tại (Check if record exists based on condition)
         public async Task<bool> ExistsAsync(Func<T, bool> predicate)
         {
@@ -163,7 +164,22 @@ namespace QuanLyKhachSan.Repositories
             return result?.ToString();
         }
 
+        public async Task<TResult> FindValueByCondition<TResult>(Expression<Func<T, bool>> predicate, Expression<Func<T, TResult>> selector)
+        {
+            // Sử dụng DbSet<T> có sẵn trong _context
+            if (_dbSet == null)
+            {
+                throw new InvalidOperationException("DbSet could not be found for the specified type.");
+            }
 
+            // Thực hiện truy vấn LINQ để tìm giá trị dựa trên điều kiện và chọn cột cần thiết
+            var query = _dbSet.Where(predicate).Select(selector);
+            return await query.FirstOrDefaultAsync();
+        }
 
+        public async Task<int> CountAsync()
+        {
+            return await _dbSet.CountAsync();
+        }
     }
 }

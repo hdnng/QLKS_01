@@ -4,7 +4,7 @@
 
 <div class="signup-container">
     <h2>ĐĂNG KÝ</h2>
-    <form method="post" onsubmit="return validateForm()">
+    <form method="post" asp-controller="Account" asp-action="SignUp" onsubmit="return validateForm()">
         <div class="form-group">
             <label for="Fullname">Họ và tên</label>
             <input type="text" id="Fullname" name="Fullname" class="form-control" placeholder="Nhập họ và tên" required />
@@ -12,7 +12,7 @@
         </div>
 
         <div class="form-group">
-            <label for="Birthday">Họ và tên</label>
+            <label for="Birthday">Ngày sinh</label>
             <input type="date" id="Birthday" name="Birthday" class="form-control" placeholder="Nhập ngày sinh" required />
             <span id="birthdayError" style="color: red;"></span> <!-- Thông báo lỗi -->
         </div>
@@ -47,11 +47,11 @@
             <span id="cfpassError" style="color: red;"></span> <!-- Thông báo lỗi -->
         </div>
 
-        <button type="submit" class="btnSigUp">ĐĂNG KÝ</button>
+        <button type="submit" class="btnSignUp">ĐĂNG KÝ</button>
     </form>
 
     <div class="login-link">
-        <p>Đã có tài khoản? <a href="/Account/Login">ĐĂNG NHẬP</a></p>
+        <p>Đã có tài khoản? <a asp-controller="Account" asp-action="Login">ĐĂNG NHẬP</a></p>
     </div>
 </div>
 
@@ -143,40 +143,27 @@
             }
 
             // Kiểm tra gmail
-            const gmailRejex = /^[a-zA-Z0-9._%+-]+@@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            
             const Gmail = document.getElementById('Gmail').value;
-            if (Gmail.trim() === "") {
-                document.getElementById('gmailError').textContent = "Gmail không được để trống.";
-                isValid = false;
-            } else {
-                if(!gmailRejex.test(Gmail))
-                {
-                    document.getElementById('gmailError').textContent = "Gmail không hợp lệ.";
-                    isValid = false;
-                }
-                else
-                {
-                    document.getElementById('gmailError').textContent = "";
-                }
-            }
+            
 
             // Kiểm tra sđt
-            const PhonePattern = /^0(32|33|34|35|36|37|38|39|56|58|59|70|76|77|78|79|81|82|83|84|85|86|87|88|89|90|92|93|96|97|98|99)\d{7}$/;
+            // const PhonePattern = /^0(32|33|34|35|36|37|38|39|56|58|59|70|76|77|78|79|81|82|83|84|85|86|87|88|89|90|92|93|96|97|98|99)\d{7}$/;
             const PhoneNumber = document.getElementById('PhoneNumber').value;
-            if (phone.trim() === "") {
-                document.getElementById('phoneError').textContent = "Số điện thoại không được để trống.";
-                isValid = false;
-            } else {
-                if(!PhonePattern.test(PhoneNumber))
-                {
-                    document.getElementById('phoneError').textContent = "Số điện thoại không hợp lệ.";
-                    isValid = false;
-                }
-                else
-                {
-                    document.getElementById('phoneError').textContent = "";
-                }
-            }
+            // if (PhoneNumber.trim() === "") {
+            //     document.getElementById('phoneError').textContent = "Số điện thoại không được để trống.";
+            //     isValid = false;
+            // } else {
+            //     if(!PhonePattern.test(PhoneNumber))
+            //     {
+            //         document.getElementById('phoneError').textContent = "Số điện thoại không hợp lệ.";
+            //         isValid = false;
+            //     }
+            //     else
+            //     {
+            //         document.getElementById('phoneError').textContent = "";
+            //     }
+            // }
 
             // Kiểm tra cccd
             const CCCD = document.getElementById('CCCD').value;
@@ -213,10 +200,7 @@
                 }
             }
 
-            
-
             return isValid; // Nếu có lỗi, form sẽ không được submit
         }
     </script>
 }
-

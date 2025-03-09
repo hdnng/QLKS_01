@@ -10,9 +10,8 @@ namespace QuanLyKhachSan.Models
         //[StringLength(5)] // CHAR(5)
         public string UserID { get; set; }
 
-        [Column("sEmail")]
+        [Column("sGmail")]
         [Required] // Không được phép null
-        [EmailAddress] // Đảm bảo là email hợp lệ
         public string Gmail { get; set; }
 
         [Column("sPassword")]
