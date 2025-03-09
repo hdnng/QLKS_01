@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\",
+  "WorkspaceRootPath": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\user\\coc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\user\\coc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\services\\customermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\customermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\wwwroot\\css\\coc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\wwwroot\\css\\coc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\hou\\nhap mon cnpm\\lai\\new folder\\qlks_01\\quanlykhachsan\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +50,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
-              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
-              "RelativeToolTip": "QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T17:10:27.153Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Bookmark",
@@ -53,53 +87,137 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenericFunction.cs",
-              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T18:02:35.879Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\appsettings.json",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\appsettings.json",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\appsettings.json",
+              "RelativeToolTip": "QuanLyKhachSan\\appsettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T10:20:36.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserManagementService.cs",
-              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\UserManagementService.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\UserManagementService.cs",
-              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\UserManagementService.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Services\\UserManagementService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T16:38:36.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:12:45.084Z",
-              "EditorCaption": ""
+              "Title": "COC.cshtml",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\User\\COC.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\User\\COC.cshtml",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\User\\COC.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\User\\COC.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T09:51:02.853Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CustomerManagementService.cs",
-              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\CustomerManagementService.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\CustomerManagementService.cs",
-              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\CustomerManagementService.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\Services\\CustomerManagementService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBwAAAAqAAAAAAAAAA==",
+              "Title": "coc.css",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\coc.css",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\wwwroot\\css\\coc.css",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\coc.css",
+              "RelativeToolTip": "QuanLyKhachSan\\wwwroot\\css\\coc.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-09T09:50:17.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T09:32:05.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T09:20:05.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Program.cs",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Program.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T16:51:28.812Z"
+              "WhenOpened": "2025-03-09T09:10:52.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:47:06.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:41:37.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Models\\Customer.cs",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Models\\Customer.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Models\\Customer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:41:30.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerList.cshtml",
+              "DocumentMoniker": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Customer\\CustomerList.cshtml",
+              "ToolTip": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\Customer\\CustomerList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T05:59:09.709Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 29,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

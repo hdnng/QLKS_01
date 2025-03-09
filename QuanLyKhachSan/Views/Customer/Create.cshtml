@@ -1,0 +1,30 @@
+﻿@model QuanLyKhachSan.Models.Customer
+
+@* <h2>@(Model.CustomerID == null ? "Thêm khách hàng" : "Chỉnh sửa khách hàng")</h2> *@
+
+<form method="post">
+    <label>Mã khách hàng</label>
+    <input type="text" asp-for="CustomerID" required />
+
+    <label>Mã người dùng</label>
+    <input type="text" asp-for="UserID" required />
+
+    <label>Họ và tên</label>
+    <input type="text" asp-for="FullName" required />
+
+    <label>Email</label>
+    <input type="email" asp-for="Gmail" required />
+
+    <label>Số điện thoại</label>
+    <input type="tel" asp-for="PhoneNumber" required />
+
+    <label>CCCD</label>
+    <input type="text" asp-for="CCCD" required />
+
+    <label>Ngày sinh</label>
+    <input type="date" asp-for="Birthday" required />
+
+    <button type="submit">Lưu</button>
+</form>
+
+<a href="/Customer">Quay lại</a>
