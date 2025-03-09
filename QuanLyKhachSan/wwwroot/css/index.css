@@ -1,0 +1,72 @@
+﻿body {
+    background-color: #f8f9fa; /* Nền xám nhạt */
+}
+
+/* Tiêu đề chính */
+h1.text-center {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Ô tìm kiếm */
+.search-box input {
+    border-radius: 20px; /* Bo tròn giống trang RoomDetail */
+    padding: 10px;
+    border: none; /* Loại bỏ viền */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+}
+
+.search-box button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    transition: background 0.3s;
+}
+
+    .search-box button:hover {
+        background-color: #cc5200;
+    }
+
+/* Tiêu đề PHÒNG HOT */
+.hot-rooms h2 {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Thẻ card hiển thị phòng */
+.card {
+    border: none; /* Xóa viền */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng đổ bóng */
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+/* Nội dung trong card */
+.card-body {
+    background: white;
+    color: #333;
+}
+
+/* Ảnh phòng */
+.room-image {
+    background: url('/path-to-default-image.jpg') center/cover no-repeat;
+    border-radius: 10px;
+}
+
+/* Loại bỏ gạch chân và đổi màu chữ của link */
+.hot-rooms .card-body a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+    .hot-rooms .card-body a:hover {
+        color: inherit;
+    }

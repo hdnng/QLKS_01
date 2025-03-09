@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\repositories\\genericfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\services\\customermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\services\\customermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|d:\\nmcnpm\\source code\\quanlykhachsan\\quanlykhachsan\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C875D635-8AC2-4B58-B056-E7342F227CCD}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericFunction.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Repositories\\GenericFunction.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAwHgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:02:35.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserManagementService.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\UserManagementService.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\UserManagementService.cs",
+              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\UserManagementService.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Services\\UserManagementService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T16:38:36.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T15:12:45.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerManagementService.cs",
+              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\Services\\CustomerManagementService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T16:51:28.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
+              "ToolTip": "D:\\NMCNPM\\Source Code\\QuanLyKhachSan\\QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
+              "RelativeToolTip": "QuanLyKhachSan\\Views\\Account\\SignUp.cshtml",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T17:10:27.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
