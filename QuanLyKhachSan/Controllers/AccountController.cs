@@ -105,9 +105,9 @@ namespace QuanLyKhachSan.Controllers
                 }
             
         }
-    
 
-    
+
+
 
         [HttpPost]
         public async Task<IActionResult> Login(User modelU)
@@ -115,48 +115,47 @@ namespace QuanLyKhachSan.Controllers
             try
             {
                 bool existG = await _userR.ExistsAsync(u => u.Gmail == modelU.Gmail);
-                Debug.WriteLine(existG);
                 if (existG)
                 {
                     string pass = await _userR.FindValueByCondition<string>(
-                        u => u.Gmail == modelU.Gmail,
-                        u => u.Password);
+                        u => u.Gmail == modelU.Gmail, u => u.Password);
 
-                    Debug.WriteLine($"Password: {pass}");
                     string role = await _userR.FindValueByCondition<string>(
-                        u => u.Gmail == modelU.Gmail,
-                        u => u.RoleID);
-                    Debug.WriteLine($"Role: {role}");
-                    if (_userS.HashPassword(modelU.Password) == pass && (role == "R01" || role == "R02"))
+                        u => u.Gmail == modelU.Gmail, u => u.RoleID);
+
+                    if (_userS.HashPassword(modelU.Password) == pass)
                     {
-                        return RedirectToAction("Index", "Home");
-                    }
-                    else if (_userS.HashPassword(modelU.Password) == pass && role == "R00")
-                    {
+                        // Lưu Gmail vào Session
+                        HttpContext.Session.SetString("UserGmail", modelU.Gmail);
+
                         return RedirectToAction("Index", "Home");
                     }
                     else
                     {
-                        // Incorrect password
                         ModelState.AddModelError(string.Empty, "Incorrect password.");
                         return View(modelU);
                     }
                 }
                 else
                 {
-                    // Gmail not found
                     ModelState.AddModelError(string.Empty, "Gmail not found.");
                     return View(modelU);
                 }
             }
             catch (Exception ex)
             {
-                Debug.WriteLine($"An error occurred: {ex.Message}");
-                Debug.WriteLine($"Stack Trace: {ex.StackTrace}");
                 ModelState.AddModelError(string.Empty, "An error occurred while processing your request.");
                 return View(modelU);
             }
         }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("UserGmail");
+            return RedirectToAction("Index", "Home");
+        }
+
+
 
 
 
