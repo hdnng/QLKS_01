@@ -1,0 +1,168 @@
+﻿/* 🌟 Định nghĩa biến màu */
+:root {
+    --primary: #FF6600;
+    --primary-dark: #E55A00;
+    --primary-light: #FF8533;
+    --primary-bg: #FFF8F4;
+    --white: #FFFFFF;
+    --gray-100: #F8F9FA;
+    --gray-200: #E9ECEF;
+    --gray-300: #DEE2E6;
+    --gray-400: #CED4DA;
+    --gray-500: #ADB5BD;
+    --gray-600: #6C757D;
+    --gray-700: #495057;
+    --gray-800: #343A40;
+    --gray-900: #212529;
+    --success: #28a745;
+    --info: #17a2b8;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: var(--primary-bg);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* 🌟 Tiêu đề */
+h2, h3 {
+    color: var(--primary);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary);
+}
+
+/* 🌟 Form nhập thông tin */
+.room-form, .customer-info, .booking-list {
+    background: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* 🌟 Ô nhập dữ liệu */
+.form-control, .form-select {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+}
+
+    .form-control:focus, .form-select:focus {
+        box-shadow: 0 0 5px rgba(255, 102, 0, 0.5);
+        border-color: var(--primary);
+    }
+
+/* 🌟 Ảnh mô tả */
+.room-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* 🌟 Ô nhập mô tả */
+textarea {
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 🌟 Bố cục cho ảnh mô tả và mô tả */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* 🌟 Nút bấm */
+.btn {
+    width: 120px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 🌟 Nút Thêm, Sửa, Xóa */
+.btn-danger {
+    background: red;
+    border: none;
+}
+
+    .btn-danger:hover {
+        background: darkred;
+    }
+
+.btn-warning {
+    background: orange;
+    border: none;
+}
+
+    .btn-warning:hover {
+        background: darkorange;
+    }
+
+.btn-success {
+    background: green;
+    border: none;
+}
+
+    .btn-success:hover {
+        background: darkgreen;
+    }
+
+/* 🌟 Navbar */
+.navbar {
+    background: var(--primary) !important;
+}
+
+.navbar-nav .nav-item a {
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+    .navbar-nav .nav-item a:hover {
+        background-color: var(--primary-dark) !important;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+/* 🌟 Footer */
+footer {
+    background: var(--primary) !important;
+    color: white !important;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

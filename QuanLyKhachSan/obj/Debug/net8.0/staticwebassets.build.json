@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xfq+XSFSwfO38U3wIfHY7vrbvcmA84VWjfYzVPYlHdA=",
+  "Hash": "4owhLgLqauv8CVUg5wsO6xWoz4EqcSUAvnBVFV62Iyc=",
   "Source": "QuanLyKhachSan",
   "BasePath": "_content/QuanLyKhachSan",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyKhachSan.bundle.scp.css"
     },
     {
+      "Identity": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\bookinglist.css",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "css/bookinglist.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bookinglist.css"
+    },
+    {
       "Identity": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\coc.css",
       "SourceId": "QuanLyKhachSan",
       "SourceType": "Discovered",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\coc.css"
+    },
+    {
+      "Identity": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\crudroom.css",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "css/crudroom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\crudroom.css"
     },
     {
       "Identity": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\customerlist.css",

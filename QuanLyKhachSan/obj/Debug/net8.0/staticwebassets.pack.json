@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\QuanLyKhachSan.bundle.scp.css"
     },
     {
+      "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\bookinglist.css",
+      "PackagePath": "staticwebassets\\css\\bookinglist.css"
+    },
+    {
       "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\coc.css",
       "PackagePath": "staticwebassets\\css\\coc.css"
+    },
+    {
+      "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\crudroom.css",
+      "PackagePath": "staticwebassets\\css\\crudroom.css"
     },
     {
       "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\customerlist.css",

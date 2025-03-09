@@ -33,5 +33,16 @@ namespace QuanLyKhachSan.Controllers
 
             return View(room);
         }
+
+        public async Task<IActionResult> ListBooking()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> RoomManagement()
+        {
+            
+            return View();
+        }
     }
 }

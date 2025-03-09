@@ -1,0 +1,50 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3 class="my-3">DANH SÁCH ĐẶT PHÒNG</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Cột bên trái: Các ô nhập liệu -->
+        <div class="col-md-7">
+            <label>Mã phòng</label>
+            <input type="text" class="form-control" />
+
+            <label>Kiểu phòng</label>
+            <select class="form-select">
+                <option>Chọn kiểu phòng</option>
+            </select>
+
+            <label>Sức chứa</label>
+            <input type="text" class="form-control" />
+
+            <label>Tình trạng phòng</label>
+            <input type="text" class="form-control" />
+
+            <label>Giá một ngày</label>
+            <input type="text" class="form-control" />
+        </div>
+
+        <!-- Cột bên phải: Ảnh mô tả + Mô tả + Nút -->
+        <div class="col-md-5">
+            <label>Ảnh mô tả</label>
+            <div class="border p-2 text-center">
+                <img src="duong-dan-anh.jpg" class="img-fluid" alt="Ảnh mô tả">
+            </div>
+
+            <label>Mô tả</label>
+            <textarea class="form-control" rows="4"></textarea>
+
+            <!-- Nút hành động -->
+            <div class="mt-3 text-center">
+                <button class="btn btn-danger">Xóa</button>
+                <button class="btn btn-warning">Sửa</button>
+                <button class="btn btn-success">Thêm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="~/css/bookinglist.css" asp-append-version="true" />
