@@ -1,38 +1,37 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QuanLyKhachSan.Models
 {
     public class Room
     {
-        [Key] // Ánh xạ thuộc tính này là khóa chính
-        [Column("sRoomID", TypeName = "CHAR(5)")] // Tên cột trong bảng SQL và kiểu dữ liệu
+        [Key]
+        [Column("sRoomID", TypeName = "CHAR(5)")]
         public string RoomID { get; set; }
 
-        [ForeignKey("RoomType")] // Ràng buộc khóa ngoại với bảng RoomType
-        [Column("sRoomTypeID", TypeName = "CHAR(3)")] // Tên cột trong bảng SQL và kiểu dữ liệu
+        [ForeignKey("RoomType")]
+        [Column("sRoomTypeID", TypeName = "CHAR(3)")]
         public string RoomTypeID { get; set; }
 
-        [Column("sDescription", TypeName = "TEXT")] // Tên cột trong bảng SQL và kiểu dữ liệu
+        [Column("sDescription", TypeName = "VARCHAR(255)")]
         public string Description { get; set; }
 
-        [Required] // Chỉ định rằng trường này không thể null
+        [Required]
         [Column("iCapacity")]
         public int Capacity { get; set; }
 
-        [Column("sIMGUrl", TypeName = "VARCHAR(255)")] // Tên cột trong bảng SQL và kiểu dữ liệu
-        public string IMGUrl { get; set; }
+        [Column("sIMGUrl", TypeName = "VARCHAR(255)")]
+        public string? IMGUrl { get; set; } 
 
-        [Required] // Chỉ định rằng trường này không thể null
+        [Required]
         [Column("iStatus")]
-        [Range(0, 1)] // Gỉới hạn giá trị 0 hoặc 1
+        [Range(0, 1)]
         public int Status { get; set; }
 
-        [Required] // Chỉ định rằng trường này không thể null
-        [Column("fPricePerDay", TypeName = "FLOAT(53)")] // Tên cột trong bảng SQL và kiểu dữ liệu
+        [Required]
+        [Column("fPricePerDay", TypeName = "FLOAT(53)")]
         public float PricePerDay { get; set; }
 
-        // Ràng buộc khóa ngoại
         public RoomType RoomType { get; set; }
     }
 }

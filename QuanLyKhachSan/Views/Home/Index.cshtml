@@ -1,8 +1,36 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<QuanLyKhachSan.Models.Room>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+
+<h1 class="text-center">TRANG CHỦ</h1>
+<div class="search-box text-center mb-4">
+    <input type="text" class="form-control d-inline-block w-50" placeholder="Tìm kiếm..." />
+    <button class="btn btn-primary">Tìm kiếm</button>
 </div>
+
+<section class="hot-rooms">
+    <h2 class="text-center">PHÒNG HOT</h2>
+    <div class="row">
+        @foreach (var room in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <a asp-controller="Room" asp-action="RoomDetail" asp-route-roomId="@room.RoomID">
+                            <div class="room-image bg-light" style="height: 150px;">
+                                <img src="~/img/@room.IMGUrl") alt="Room Image" style="height: 100%; width: 100%; object-fit: cover;" />
+                            </div>
+                            <p><strong>Số phòng:</strong> @room.RoomID</p>
+                            <p><strong>Kiểu phòng:</strong> @room.RoomType?.RoomTypeName</p>
+                            <p><strong>Sức chứa:</strong> @room.Capacity người</p>
+                            <p><strong>Giá:</strong> @room.PricePerDay VND</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>

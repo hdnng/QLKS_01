@@ -5,6 +5,7 @@
       "PackagePath": "staticwebassets\\QuanLyKhachSan.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\coc.css",
       "PackagePath": "staticwebassets\\css\\coc.css"
     },
@@ -14,6 +15,17 @@
     },
     {
       "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\site.css",
+=======
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\roomdetail.css",
+      "PackagePath": "staticwebassets\\css\\roomdetail.css"
+    },
+    {
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\site.css",
+>>>>>>> 4238270cf10379e4adc7a32e6fb40844639e3b4f
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
@@ -21,7 +33,23 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\js\\site.js",
+=======
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\js\\site.js",
+>>>>>>> 4238270cf10379e4adc7a32e6fb40844639e3b4f
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {

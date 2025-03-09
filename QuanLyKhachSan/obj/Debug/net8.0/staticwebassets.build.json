@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "u/2GDzBxMuU/+ayeMiUBXSkkmjby9xCfDamuI7wTuIE=",
+=======
+  "Hash": "AhH6n04Kti3PoYTcqsyCDDFIby3rnA0A7GJfYVjHq4s=",
+>>>>>>> 4238270cf10379e4adc7a32e6fb40844639e3b4f
   "Source": "QuanLyKhachSan",
   "BasePath": "_content/QuanLyKhachSan",
   "Mode": "Default",
@@ -55,7 +59,49 @@
       "OriginalItemSpec": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyKhachSan.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\coc.css",
+=======
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\index.css",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\roomdetail.css",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "css/roomdetail.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\roomdetail.css"
+    },
+    {
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\css\\site.css",
+>>>>>>> 4238270cf10379e4adc7a32e6fb40844639e3b4f
       "SourceId": "QuanLyKhachSan",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
@@ -131,7 +177,68 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\js\\site.js",
+=======
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\img\\1.jpg",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "img/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\img\\2.jpg",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "img/2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\img\\3.jpg",
+      "SourceId": "QuanLyKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
+      "BasePath": "_content/QuanLyKhachSan",
+      "RelativePath": "img/3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\chinh\\Source\\Repos\\QLKS_01\\QuanLyKhachSan\\wwwroot\\js\\site.js",
+>>>>>>> 4238270cf10379e4adc7a32e6fb40844639e3b4f
       "SourceId": "QuanLyKhachSan",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOU\\nhap mon cnpm\\lai\\New folder\\QLKS_01\\QuanLyKhachSan\\wwwroot\\",
