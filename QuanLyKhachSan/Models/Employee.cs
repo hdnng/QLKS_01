@@ -14,7 +14,6 @@ namespace QuanLyKhachSan.Models
         public string UserID { get; set; }
 
         [Required]
-        [EmailAddress]
         [Column("sGmail", TypeName = "VARCHAR(255)")]
         public string Gmail { get; set; }
 

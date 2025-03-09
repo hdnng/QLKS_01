@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using QuanLyKhachSan.Models;
 using QuanLyKhachSan.Repositories;
+using System.Diagnostics;
 using System.Threading.Tasks;
 namespace QuanLyKhachSan.Services
 {
@@ -22,24 +23,29 @@ namespace QuanLyKhachSan.Services
         public async Task AddUserAsync(User model)
         {
             // Tạo UserID mới cho người dùng dựa trên role
-            var userId = await GenerateUserIdAsync(model.RoleID);
+            //var userId = await GenerateUserIdAsync(model.RoleID);
 
             var user = new User
             {
-                UserID = userId,
+                UserID = await GenerateUserIdAsync(model.RoleID),
                 Gmail = model.Gmail, // Lấy thông tin từ model
                 Password = HashPassword(model.Password), // Mã hóa mật khẩu
                 RoleID = model.RoleID // Vai trò của người dùng
             };
 
+            Debug.WriteLine(user.UserID, user.Gmail, user.Password, user.RoleID);
+
             // Thêm người dùng vào cơ sở dữ liệu
             await _userR.AddAsync(user);
         }
 
+        
+
+
         // Tạo UserID tự động dựa trên role
         public async Task<string> GenerateUserIdAsync(string role)
         {
-            string prefix = role == "R00" ? "Ua" : "UA"; // Chọn prefix phù hợp với role
+            string prefix = role == "R00" ? "UA" : "AD"; // Chọn prefix phù hợp với role
             var lastUserId = await _userR.GetLastUserIdAsync(prefix); // Lấy UserID cuối cùng từ cơ sở dữ liệu
 
             // Tạo ID mới dựa trên UserID cuối cùng
@@ -61,8 +67,10 @@ namespace QuanLyKhachSan.Services
             return newUserId;
         }
 
+       
+
         // Hàm mã hóa mật khẩu (sử dụng kỹ thuật mã hóa như SHA256, bcrypt...)
-        private string HashPassword(string password)
+        public string HashPassword(string password)
         {
             //phương thức mã hóa
             using (var sha256 = System.Security.Cryptography.SHA256.Create())
