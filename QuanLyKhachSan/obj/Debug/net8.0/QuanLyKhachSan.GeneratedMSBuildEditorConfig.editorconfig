@@ -17,65 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuanLyKhachSan
 build_property.RootNamespace = QuanLyKhachSan
-build_property.ProjectDir = D:\NMCNPM\Git\QLKS_01\QuanLyKhachSan\
+build_property.ProjectDir = D:\HOU\nhap mon cnpm\lai\New folder\QLKS_01\QuanLyKhachSan\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\NMCNPM\Git\QLKS_01\QuanLyKhachSan
+build_property.MSBuildProjectDirectory = D:\HOU\nhap mon cnpm\lai\New folder\QLKS_01\QuanLyKhachSan
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Account/Login.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Account/SignUp.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Admin/CustomerList.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Admin/CustomerList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Booking/BookingDetail.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Booking/BookingDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Booking/BookingList.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Booking/BookingList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Home/Index.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Home/Privacy.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Room/RoomDetail.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Room/RoomDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Shared/Error.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/_ViewImports.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/_ViewStart.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NMCNPM/Git/QLKS_01/QuanLyKhachSan/Views/Shared/_Layout.cshtml]
+[D:/HOU/nhap mon cnpm/lai/New folder/QLKS_01/QuanLyKhachSan/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fgvefgshpn
